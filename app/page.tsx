@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { SiInstagram, SiWhatsapp, SiGithub, SiTwitter, SiLinkedin } from 'react-icons/si'
+import { SiGithub, SiInstagram, SiLinkedin, SiTwitter, SiWhatsapp } from 'react-icons/si'
 export default function Home() {
   return (
-    <div className=''>
+    <div className='relative'>
       <nav className='h-20 bg-black z-10 bg-opacity-90 sticky top-0 sm:min-w-sm text-xl font-semibold mt-6 w-full mx-auto flex justify-center items-center px-4 gap-2 md:gap-20'>
         <Link className='hover:bg-zinc-800 hover:bg-opacity-60 transition duration-200 p-2 px-4 rounded-xl' href='/projects'>Projects</Link>
         <Link className='hover:bg-zinc-800 hover:bg-opacity-60 transition duration-200 p-2 px-4 rounded-xl' href='/blogs'>Blogs</Link>
@@ -50,14 +50,14 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer className='hidden w-full h-10 md:flex justify-center px-10'>
-        <h1 className='absolute bottom-5 text-md'>
+      <footer className='container text-center mx-auto h-14 md:h-20 flex items-end justify-center px-10 pb-6 md:pb-1 '>
+        <h1 className='absolute text-md'>
           I am an avid reader , currently reading ~{" "}
           <Link className='bg-slate-800 rounded-lg p-2 hover:bg-slate-700 transition' target="_blank" href='https://en.wikipedia.org/wiki/Zero_to_One'>
             Zero to One
           </Link>
         </h1>
-        <h1 className='absolute bottom-5 right-20 text-xl font-semibold hover:underline hover:text-gray-300'>
+        <h1 className='hidden lg:flex absolute right-20 text-xl font-semibold hover:underline hover:text-gray-300'>
           <Link className='' href='mailto:amanagarwalx123@gmail.com' target='_blank'>
             {'--> '}Contact me..
           </Link>
@@ -67,3 +67,4 @@ export default function Home() {
 
   )
 }
+// footer alteration remains
