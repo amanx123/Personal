@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 import Link from "next/link"
 import { motion } from "framer-motion"
 
@@ -24,7 +24,7 @@ export default function ProjectCard({ imageUrl, title, description, link, produc
             }}
         >
             <div className="container border md:flex gap-6 border-lime-100 rounded-xl mx-auto p-4">
-                <img className="sm:h-1/2 sm:w-full md:h-auto md:w-1/2 rounded-lg object-cover opacity-80 shadow-md" src='https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80' alt='image' ></img>
+                <img className="sm:h-1/2 sm:w-full md:h-auto md:w-1/2 rounded-lg object-cover opacity-80 shadow-md" src={imageUrl} alt='image' ></img>
                 <div className="relative text-center space-y-4 w-full">
                     <h1 className="text-xl font-semibold mt-4">
                         {title}
