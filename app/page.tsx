@@ -42,11 +42,11 @@ export default function Home() {
         <div className='text-center w-1/2 md:px-10'>
           <h1 className='text-lg font-semibold pb-5'>Socials</h1>
           <div className='flex text-white justify-center items-center flex-col md:flex-row gap-6 '>
-            <Link className='hover:text-pink-300 transition' href=''><SiInstagram size={30} /></Link>
-            <Link className='hover:text-green-400 transition' href=''><SiWhatsapp size={30} /></Link>
-            <Link className='hover:text-slate-300 transition' href=''><SiGithub size={30} /></Link>
-            <Link className='hover:text-cyan-400 transition' href=''><SiTwitter size={30} /></Link>
-            <Link className='hover:text-sky-600 transition' href=''><SiLinkedin size={30} /></Link>
+            <Link className='hover:text-pink-600 text-pink-500 transition' href=''><SiInstagram size={30} /></Link>
+            <Link className='hover:text-green-600 text-green-500 transition' href=''><SiWhatsapp size={30} /></Link>
+            <Link className='hover:text-slate-400 text-slate-200 transition' href=''><SiGithub size={30} /></Link>
+            <Link className='hover:text-cyan-400 text-cyan-300 transition' href=''><SiTwitter size={30} /></Link>
+            <Link className='hover:text-sky-700 text-sky-600 transition' href=''><SiLinkedin size={30} /></Link>
           </div>
         </div>
       </div>
