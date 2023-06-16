@@ -50,7 +50,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer className='container text-center mx-auto h-14 md:h-20 flex items-end justify-center px-10 pb-6 md:pb-1 '>
+      <footer className='text-center mx-auto h-14 md:h-20 flex items-end justify-center pb-6 md:pb-4 lg:pb-1 '>
         <h1 className='absolute text-md'>
           I am an avid reader , currently reading ~{" "}
           <Link className='bg-slate-800 rounded-lg p-2 hover:bg-slate-700 transition' target="_blank" href='https://en.wikipedia.org/wiki/Zero_to_One'>
