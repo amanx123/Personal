@@ -1,44 +1,45 @@
+
 [
     {
-    "imageUrl" : "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    "imageUrl" : "https://images.unsplash.com/photo-1633793675529-58eecb6ea16f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80",
     "title" : "xNetflix (Clone of Netflix)",
     "description":"Full stack application built with complete authentication and authorization. Users can sign-in / sign-up with their email and password or one click authentication provided by google and github. People can watch movies/series and add to thier playlist. Tech Stack: Nextjs, Typescript, MongoDb, Prisma, NextAuth, Google Cloud, Tailwind Css.",
-    "link":"https://google.com",
-    "productionLink" : "https://google.com"
+    "link":"https://github.com/amanx123/xNetflix",
+    "productionLink" : "https://movies-amanx123.vercel.app/login"
     },
     {
-    "imageUrl" : "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    "imageUrl" : "https://monday.com/blog/wp-content/uploads/2020/11/task-management-app-1.jpg",
     "title" : "Keeper (Project Management app)",
     "description":"Full stack application made to simplify and track project tasks and manage it. Tech Stack: Reactjs, Nodejs, GraphQL, MongoDb, Mongoose, Nodejs, Docker. ",
-    "link":"https://google.com",
-    "productionLink" : "https://google.com"
+    "link":"https://github.com/amanx123/Keeper",
+    "productionLink" : "https://github.com/amanx123/Keeper"
     },
     {
-    "imageUrl" : "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    "imageUrl" : "/TechDepot.png",
     "title" : "TechDepot (E-Commerce Marketplace)",
     "description":"Full stack application with complete authentication and authorization",
-    "link":"https://google.com",
-    "productionLink" : "https://google.com"
+    "link":"https://github.com/amanx123/TechDepot",
+    "productionLink" : "https://github.com/amanx123/TechDepot"
     },
     {
-    "imageUrl" : "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    "imageUrl" : "/LifeShare.png",
     "title" : "LifeShare (Blogging application)",
     "description":"Full stack application with complete authentication and authorization",
-    "link":"https://google.com",
-    "productionLink" : "https://google.com"
+    "link":"https://github.com/amanx123/LifeShare",
+    "productionLink" : "https://github.com/amanx123/LifeShare"
     },
     {
-    "imageUrl" : "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    "imageUrl" : "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
     "title" : "GuideMe (Tracking Application)",
     "description":"Full stack application with complete authentication and authorization",
-    "link":"https://google.com",
-    "productionLink" : "https://google.com"
+    "link":"https://github.com/amanx123/GuideMe",
+    "productionLink" : "https://github.com/amanx123/GuideMe"
     },
     {
-    "imageUrl" : "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    "imageUrl" : "https://images.unsplash.com/photo-1652862730746-93fcd0da61ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     "title" : "xDeliveroo (Grocery/Food ordering app",
     "description":"Full stack application with complete authentication and authorization",
-    "link":"https://google.com",
-    "productionLink" : "https://google.com"
+    "link":"https://github.com/amanx123/Deliveroo-Clone",
+    "productionLink" : "https://github.com/amanx123/Deliveroo-Clone"
     }
 ]
