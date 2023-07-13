@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { SiGithub, SiInstagram, SiLinkedin, SiTwitter, SiWhatsapp } from 'react-icons/si'
 export default function Home() {
   return (
-    <div className='relative'>
+    <div className='h-full relative'>
       <nav className='h-20 bg-black z-10 bg-opacity-90 sticky top-0 sm:min-w-sm text-xl font-semibold mt-6 w-full mx-auto flex justify-center items-center px-4 gap-2 md:gap-20'>
         <Link className='hover:bg-zinc-800 hover:bg-opacity-60 transition duration-200 p-2 px-4 rounded-xl' href='/projects'>Projects</Link>
         <Link className='hover:bg-zinc-800 hover:bg-opacity-60 transition duration-200 p-2 px-4 rounded-xl' href='/blogs'>Blogs</Link>
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer className='text-center mx-auto h-14 md:h-20 flex items-end justify-center pb-6 md:pb-4 lg:pb-1 '>
+      <footer className='text-center mx-auto flex items-end justify-center h-20 md:h-48 lg:h-80 pb-6 lg:pb-1'>
         <h1 className='absolute text-md'>
           I am an avid reader , currently reading ~{" "}
           <Link className='bg-slate-800 rounded-lg p-2 hover:bg-slate-700 transition' target="_blank" href='https://en.wikipedia.org/wiki/Zero_to_One'>
