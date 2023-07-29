@@ -10,7 +10,7 @@ export default function Home() {
         <Link className='bg-zinc-700 bg-opacity-40 hover:bg-zinc-800 transition duration-200 p-2 px-4 rounded-xl min-w-fit' href='mailto:amanagarwalx123@gmail.com'>Contact Me</Link>
       </nav>
       <div className='md:mt-20 lg:mt-28'>
-        <figure className='mx-auto md:hidden mt-2 relative h-60 w-72 p-5 animate-pulse '>
+        <figure className='mx-auto md:hidden mt-2 relative h-60 w-72 p-5 '>
           <Image className="rounded-full opacity-90 object-cover" src='/hero.png' fill alt="Hero Figure"></Image>
         </figure>
         <div className='flex'>
