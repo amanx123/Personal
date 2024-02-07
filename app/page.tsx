@@ -13,7 +13,7 @@ export default function Home() {
             <Image className="rounded-full opacity-90 object-cover" src='/me.jpg' fill alt="Aman Photo"></Image>
           </figure>
 
-          <section className='container mt-16 space-y-6 mx-auto '>
+          <section className='container mt-10 md:mt-16 space-y-6 mx-auto '>
             <h1 className=' tracking-tight text-2xl text-center h-auto font-bold'>
               Hey, I'm Aman 👋
               <br />
