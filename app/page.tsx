@@ -3,28 +3,28 @@ import Link from 'next/link'
 import { SiGithub, SiInstagram, SiLinkedin, SiTwitter, SiWhatsapp } from 'react-icons/si'
 export default function Home() {
   return (
-    <div className='h-full relative'>
-      <nav className='h-20 bg-black z-10 bg-opacity-90 sticky top-0 sm:min-w-sm text-xl font-semibold mt-6 w-full mx-auto flex justify-center items-center px-4 gap-2 md:gap-20'>
+    <div className='text-white'>
+      <nav className='h-20 z-10 bg-opacity-90 sticky top-0 sm:min-w-sm text-xl font-semibold mt-6 w-full mx-auto flex justify-center items-center px-4 gap-2 md:gap-20'>
         <Link className='hover:bg-zinc-800 hover:bg-opacity-60 transition duration-200 p-2 px-4 rounded-xl' href='/projects'>Projects</Link>
         <Link className='hover:bg-zinc-800 hover:bg-opacity-60 transition duration-200 p-2 px-4 rounded-xl' href='/blogs'>Blogs</Link>
         <Link className='bg-zinc-700 bg-opacity-40 hover:bg-zinc-800 transition duration-200 p-2 px-4 rounded-xl min-w-fit' href='mailto:amanagarwalx123@gmail.com'>Contact Me</Link>
       </nav>
       <div className='mt-4 md:mt-12'>
         <figure className='mx-auto md:hidden mt-2 relative h-60 w-72 p-5 '>
-          <Image className="rounded-full opacity-90 object-cover" src='/hero.png' fill alt="Hero Figure"></Image>
+          <Image className="rounded-full opacity-90 object-cover" src='/me.jpg' fill alt="Aman Photo"></Image>
         </figure>
         <div className='flex'>
           <figure className='hidden md:block relative h-60 w-72 ml-20 mt-10 p-5'>
-            <Image className="rounded-full opacity-90 object-cover" src='/hero.png' fill alt="Hero Figure"></Image>
+            <Image className="rounded-full opacity-90 object-cover" src='/me.jpg' fill alt="Aman Photo"></Image>
           </figure>
 
           <section className='container mt-10 space-y-6 mx-auto '>
-            <div className='text-gray-100 text-4xl text-center tracking-tighter font-mono font-bold h-auto '>
+            <div className='text-gray-100 text-4xl text-center font-bold h-auto '>
               Hi 👋 I'm Aman!
               <br />
               I'm a Full Stack engineer.
             </div>
-            <div className='px-4 text-center font-medium font-mono text-xl h-auto md:px-16'>
+            <div className='px-4 text-center font-medium text-xl h-auto md:px-16'>
               I love to network with like minded people and discuss building products on AI and blockchain.
             </div>
             <div className='px-4 text-center font-light text-xs md:text-base h-auto md:px-16'>
@@ -33,11 +33,11 @@ export default function Home() {
           </section>
         </div>
         <div className='flex p-10 mx-auto gap-20 md:space-x-0 '>
-          <div className='w-1/2 md:ml-10 text-lg space-y-2'>
+          <div className='w-1/2 md:ml-10 text-lg space-y-2 font-medium'>
             <h1 className='font-bold '>📍 India (earth)</h1>
-            <h1 className='font-medium'>🖥 Currently working on an AI saas</h1>
-            <h1 className='font-medium'>👥 Open to opportunities ~ contract/fulltime</h1>
-            <h2 className='font-mono tracking-tighter font-medium flex-wrap'>😸 Please don't hesitate to reach out, I can also work for free or future equity if the product excites me!
+            <h1 className=''>🖥 Currently working on an AI saas</h1>
+            <h1 className=''>👥 Open to opportunities ~ contract/fulltime</h1>
+            <h2 className='flex-wrap'>😸 Please don't hesitate to reach out, I can also work for free or future equity if the product excites me!
             </h2>
           </div>
           <div className='text-center w-1/2 md:px-10'>
