@@ -1,7 +1,8 @@
+import Navbar from '@/components/Navbar'
 import './globals.css'
 import { Poppins } from 'next/font/google'
 
-const poppins = Poppins({ weight: ['100', '200', '300', '400', '500', '600', '700', '800'], subsets: ['devanagari'] })
+const poppins = Poppins({ weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'], subsets: ['latin'], display: 'swap', variable: '--font-poppins', })
 
 export const metadata = {
   title: 'Aman Agarwal',
@@ -16,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-neutral-950`}>{children}</body>
+      <body className={`${poppins.variable} bg-[#111010]`}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }

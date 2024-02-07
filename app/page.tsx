@@ -4,11 +4,6 @@ import { SiGithub, SiInstagram, SiLinkedin, SiTwitter, SiWhatsapp } from 'react-
 export default function Home() {
   return (
     <div className='text-white'>
-      <nav className='h-20 z-10 bg-opacity-90 sticky top-0 sm:min-w-sm text-xl font-semibold mt-6 w-full mx-auto flex justify-center items-center px-4 gap-2 md:gap-20'>
-        <Link className='hover:bg-zinc-800 hover:bg-opacity-60 transition duration-200 p-2 px-4 rounded-xl' href='/projects'>Projects</Link>
-        <Link className='hover:bg-zinc-800 hover:bg-opacity-60 transition duration-200 p-2 px-4 rounded-xl' href='/blogs'>Blogs</Link>
-        <Link className='bg-zinc-700 bg-opacity-40 hover:bg-zinc-800 transition duration-200 p-2 px-4 rounded-xl min-w-fit' href='mailto:amanagarwalx123@gmail.com'>Contact Me</Link>
-      </nav>
       <div className='mt-4 md:mt-12'>
         <figure className='mx-auto md:hidden mt-2 relative h-60 w-72 p-5 '>
           <Image className="rounded-full opacity-90 object-cover" src='/me.jpg' fill alt="Aman Photo"></Image>
@@ -18,24 +13,24 @@ export default function Home() {
             <Image className="rounded-full opacity-90 object-cover" src='/me.jpg' fill alt="Aman Photo"></Image>
           </figure>
 
-          <section className='container mt-10 space-y-6 mx-auto '>
-            <div className='text-gray-100 text-4xl text-center font-bold h-auto '>
-              Hi 👋 I'm Aman!
+          <section className='container mt-16 space-y-6 mx-auto '>
+            <h1 className=' tracking-tight text-2xl text-center h-auto font-bold'>
+              Hey, I'm Aman 👋
               <br />
               I'm a Full Stack engineer.
-            </div>
-            <div className='px-4 text-center font-medium text-xl h-auto md:px-16'>
-              I love to network with like minded people and discuss building products on AI and blockchain.
-            </div>
-            <div className='px-4 text-center font-light text-xs md:text-base h-auto md:px-16'>
-              Fav Tech Stack : Typescript , Nextjs , GraphQL , MongoDb , Nodejs , Expressjs , PostgreSql , Python , Java , Solidity , Web3
-            </div>
+            </h1>
+            <h2 className='text-gray-200 px-4 text-center tracking-tight font-normal text-lg md:px-16'>
+              I love to network with like minded people and building products on Ai and web3.
+            </h2>
+            <h3 className='text-gray-200 px-4 text-center font-extralight text-xs md:text-sm md:px-16'>
+              Tech Stack : Typescript , Nextjs , GraphQL , MongoDb , Nodejs , Expressjs , PostgreSql , Python , Java , Solidity , Golang
+            </h3>
           </section>
         </div>
         <div className='flex p-10 mx-auto gap-20 md:space-x-0 '>
           <div className='w-1/2 md:ml-10 text-lg space-y-2 font-medium'>
             <h1 className='font-bold '>📍 India (earth)</h1>
-            <h1 className=''>🖥 Currently working on an AI saas</h1>
+            <h1 className=''>🖥 Currently working on Full Stack Ai products.</h1>
             <h1 className=''>👥 Open to opportunities ~ contract/fulltime</h1>
             <h2 className='flex-wrap'>😸 Please don't hesitate to reach out, I can also work for free or future equity if the product excites me!
             </h2>
