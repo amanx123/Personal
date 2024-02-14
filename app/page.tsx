@@ -28,10 +28,21 @@ export default function Home() {
           </section>
         </div>
         {/*  */}
-        <div className='mx-auto mt-10 space-y-10 font-light prose prose-gray prose-invert max-w-none'>
+        <main className='mx-auto mt-10 prose prose-gray prose-invert max-w-none'>
           <div>
             <p>
-              Currently I am working on an edtech platform{" "}<Link className='underline text-amber-100 font-medium' href='/work#topdevs'>TopDevs</Link>{" 🚀 "}where developers can upskill in areas like frontend development, backend development and full-stack development. The platform is all inclusive where devs upskill, get ready for interviews by giving mock ai driven interviews, build cool, aesthetic and real world usecase driven projects, look for vetted job opportunities, compete in project leaderboards by getting featured and much more.
+              Get your software MVP built by us.{" "}<Link target='_blank' className='no-underline text-amber-100 font-medium hover:underline' href='https://hoverlabshq.com'>HoverLabs</Link>{" ⚔️ "}. We follow a flat pricing model and get your products shipped as fast as possible. Checkout the website for more info and book a free discovery call.
+            </p>
+            <p>
+              On the side, I am working on an edtech saas platform{" "}<Link className='no-underline text-amber-100 font-medium hover:underline' href='/work#topdevs'>TopDevs</Link>{" 🚀 "}where developers can upskill in areas like frontend development, backend development and full-stack development. The platform is an all inclusive with offerings like :
+              <br />
+              - ai mock interviews.
+              <br />
+              - jobs board.
+              <br />
+              - build and ship cool, aesthetic and real world use case driven projects.
+              <br />
+              Explore the platform for more <Link className='no-underline text-amber-100 font-medium text-sm hover:underline' href='https://topdevs.in'>TopDevs.</Link>
             </p>
           </div>
           <div className='-space-y-6'>
@@ -39,28 +50,54 @@ export default function Home() {
               I have an innate passion for technology and spend most of my time building side projects (mostly saas) on ideas which I find interesting or have a real passion for.
             </p>
             <div className='space-y-2'>
-              <h3>Some notable projects include :{" "}</h3>
+              <h3>Some notable projects :{" "}</h3>
               <h4>Web</h4>
-              <span className='space-x-3 text-sm'>
-                - <Link className="text-amber-100 font-medium" href='/work#nomadsfuel'>NomadsFuel</Link>
-                <Link className="text-amber-100 font-medium" href='/work#playdex' >PlayDex</Link>
-                <Link className="text-amber-100 font-medium" href='/work#nightspace' >NightSpace</Link>
-                <Link className="text-amber-100 font-medium" href='/work#ideashub' >IdeasHub</Link>
-              </span>
-              <h4>Mobile</h4>
-              <span className='space-x-3 text-sm'>
-                - <Link className="text-amber-100 font-medium" href='/work#nomadsfuel'>NomadsFuel</Link>
+              <div className='px-2 space-y-2 text-sm flex flex-col'>
+                <span>
+                  <Link className="text-amber-100 font-medium mr-2 no-underline hover:underline group" href='/work#nomadsfuel'>NomadsFuel 🎒<span className='hidden group-hover:inline'>↗</span></Link>
+                  - Social Traveling to network better.
+                </span>
+                <span>
+                  <Link className="text-amber-100 font-medium mr-2 no-underline hover:underline group" href='/work#playdex' >PlayDex 🕹️<span className='hidden group-hover:inline'>↗</span></Link>
+                  - Play games and chat via text/video together.
+                </span>
+                <span>
+                  <Link className="text-amber-100 font-medium mr-2 no-underline hover:underline group" href='/work#nightspace' >NightSpace 🪐<span className='hidden group-hover:inline'>↗</span></Link>
+                  - An experience to increase your knowledge about the universe/cosmos and the foreseeable future.
+                </span>
+              </div>
+              <h4>Ai</h4>
+              <div className='px-2 space-y-2 text-sm flex flex-col'>
+                <span>
+                  <Link className="text-amber-100 font-medium mr-2 no-underline hover:underline group" href='/work#ideashub' >Postmate 🤖<span className='hidden group-hover:inline'>↗</span></Link>
+                  - Ai powered Social Media Management to grow and handle your audience better.
+                </span>
+                <span>
+                  <Link className="text-amber-100 font-medium mr-2 no-underline hover:underline group" href='/work#ideashub' >IdeasHub 💡<span className='hidden group-hover:inline'>↗</span></Link>
+                  - Never worry again about random happenings like what to gift, what to listen etc.
+                </span>
+              </div>
+              <h4>Extentions</h4>
+              <div className='px-2 space-y-2 text-sm flex flex-col'>
+                <span>
+                  <Link className="text-amber-100 font-medium mr-2 no-underline hover:underline group" href='/work#ideashub' > <span className='hidden group-hover:inline'>↗</span></Link>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className='-space-y-6'>
+            <p>
+              I create educational content for developers, teaching them about full-stack development, Ai and Web3. This comes in all forms: blog posts, videos, tweets etc. I like to keep things simple and minimal by following the 80-20 rule while learning and teaching to get the maximum output, as people can always learn the other stuff when required.
+            </p>
+            <div className='-space-y-2'>
+              <h3>Notable blog posts to read :</h3>
+              <span className='px-2 flex flex-col font-medium text-base'>
+                <Link className=' no-underline hover:underline group' href=''>Go from 0 to expert full stack dev in one blog post <span className='hidden group-hover:inline'>↗</span></Link>
               </span>
             </div>
           </div>
-          <div className='-space-y-2'>
-            <p>
-              I create educational content for developers, teaching them about full-stack development, Ai and Web3. This comes in all forms: blog posts, videos, tweets etc. I like to keep things simple and minimal by following the 80-20 rule while learning and teaching to get the maximum output, as people can always learn the other stuff as required.
-            </p>
-            <h3>Notable blog posts to read:</h3>
-          </div>
 
-        </div>
+        </main>
         {/* Socials */}
         <div className='text-center w-full md:px-10 my-10'>
           <h1 className='text-xl font-semibold pb-5'>Connect</h1>
