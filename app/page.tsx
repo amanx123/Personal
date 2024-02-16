@@ -77,7 +77,7 @@ export default function Home() {
                   - Never worry again about random happenings like what to gift, what to listen etc.
                 </span>
               </div>
-              <h4>Extentions</h4>
+              <h4>Extensions</h4>
               <div className='px-2 space-y-2 text-sm flex flex-col'>
                 <span>
                   <Link className="text-amber-100 font-medium mr-2 no-underline hover:underline group" href='/work#ideashub' > <span className='hidden group-hover:inline'>↗</span></Link>
