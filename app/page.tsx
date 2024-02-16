@@ -36,9 +36,9 @@ export default function Home() {
             <p>
               On the side, I am working on an edtech saas platform{" "}<Link className='no-underline text-amber-100 font-medium hover:underline' href='/work#topdevs'>TopDevs</Link>{" 🚀 "}where developers can upskill in areas like frontend development, backend development and full-stack development. The platform is an all inclusive with offerings like :
               <br />
-              - ai mock interviews.
+              - ai mock interviews and practice questions.
               <br />
-              - jobs board.
+              - jobs board & referrals.
               <br />
               - build and ship cool, aesthetic and real world use case driven projects.
               <br />
@@ -70,7 +70,7 @@ export default function Home() {
               <div className='px-2 space-y-2 text-sm flex flex-col'>
                 <span>
                   <Link className="text-amber-100 font-medium mr-2 no-underline hover:underline group" href='/work#ideashub' >Postmate 🤖<span className='hidden group-hover:inline'>↗</span></Link>
-                  - Ai powered Social Media Management to grow and handle your audience better.
+                  - Ai powered Creative Writing and Social Media Management to grow and handle your audience better.
                 </span>
                 <span>
                   <Link className="text-amber-100 font-medium mr-2 no-underline hover:underline group" href='/work#ideashub' >IdeasHub 💡<span className='hidden group-hover:inline'>↗</span></Link>
@@ -92,7 +92,7 @@ export default function Home() {
             <div className='-space-y-2'>
               <h3>Notable blog posts to read :</h3>
               <span className='px-2 flex flex-col font-medium text-base'>
-                <Link className=' no-underline hover:underline group' href=''>Go from 0 to expert full stack dev in one blog post <span className='hidden group-hover:inline'>↗</span></Link>
+                <Link className=' no-underline hover:underline group' href=''>From 0 to expert full stack dev in one blog post <span className='hidden group-hover:inline'>↗</span></Link>
               </span>
             </div>
           </div>
