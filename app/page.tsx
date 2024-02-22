@@ -105,8 +105,8 @@ export default function Home() {
             <Link className='hover:text-pink-600 text-pink-500 transition' href='https://www.instagram.com/amanagarwal.x/'><SiInstagram size={30} /></Link>
             <Link className='hover:text-green-600 text-green-500 transition' href='https://wa.me/7007829376'><SiWhatsapp size={30} /></Link>
             <Link className='hover:text-slate-400 text-slate-200 transition' href='https://github.com/amanx123'><SiGithub size={30} /></Link>
-            <Link className='hover:text-slate-400 text-slate-200 transition' href='https://twitter.com/supertramp_aman'><SiX size={30} /></Link>
-            <Link className='hover:text-sky-700 text-sky-600 transition' href='https://www.linkedin.com/in/amanx123/'><SiLinkedin size={30} /></Link>
+            <Link className='hover:text-slate-400 text-slate-200 transition' href='https://twitter.com/amanagarwalx'><SiX size={30} /></Link>
+            <Link className='hover:text-sky-700 text-sky-600 transition' href='https://www.linkedin.com/in/amanagarwalx'><SiLinkedin size={30} /></Link>
           </div>
         </div>
       </div>
