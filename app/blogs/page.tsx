@@ -1,21 +1,31 @@
-import blogs from './blogs.json'
-import Blog from "./BlogCard"
 import { Metadata } from 'next';
+import Blogs from "./blogs";
+import { getAllBlogs } from "./fetchcontent";
+import { Redis } from '@upstash/redis';
+const redis = Redis.fromEnv();
 
 export const metadata: Metadata = {
     title: 'Blog | Aman Agarwal',
+    description: "Technical articles and blogs by Aman Agarwal"
 };
-export default function Blogs() {
+export const revalidate = 0;
+export default async function BlogsPage() {
+    const allBlogs = await getAllBlogs()
+    const publishedBlogs = allBlogs.filter((blog) => blog.frontmatter.isDraft === 'false')
+    const views = (
+        await redis.mget<number[]>(
+            ...publishedBlogs.map((p) => ['pageviews', 'blogs', p.slug].join(':')),
+        )
+    ).reduce(
+        (acc, v, i) => {
+            acc[publishedBlogs[i].slug] = v ?? 0;
+            return acc;
+        },
+        {} as Record<string, number>,
+    );
+
     return (
-        <div >
-            <section className="container mx-auto p-8 justify-center items-center flex flex-col gap-4 text-white">
-                {
-                    blogs.map((blog, idx) => (
-                        <Blog key={idx} title={blog.title} link={blog.link} />
-                    ))
-                }
-            </section>
-        </div>
+        <Blogs allPosts={publishedBlogs} views={views} />
     )
 }
 
